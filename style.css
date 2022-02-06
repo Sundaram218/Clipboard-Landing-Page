@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+:roots {
+  /* Primary */
+
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+
+  /* Neutral */
+
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container-1 {
+  display: contents;
+}
+
+.logo {
+  position: absolute;
+  padding-top: 120px;
+  z-index: 500;
+}
+
+.container-1 h1 {
+  margin-top: -50px;
+  margin-top: -50px;
+  font-size: 40px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.p1 {
+  display: flex;
+  text-align: center;
+  line-height: 1.7;
+  padding: 20px 342px;
+  color: hsl(201, 11%, 66%);
+}
+
+.download-1 {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.button-1 {
+  border: 0 solid;
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  margin-right: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.button-1:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.button-2 {
+  border: 0 solid;
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  font-size: 18px;
+  margin-left: -40px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.button-2:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.container-2 {
+  display: content;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.container-2 h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.container-2 p {
+  color: hsl(201, 11%, 66%);
+  padding: 20px 342px;
+  line-height: 1.7;
+}
+
+.container-3 {
+  display: flex;
+}
+
+.computer {
+  margin-top: 50px;
+}
+
+.information {
+  display: grid;
+  padding: 40px;
+  line-height: 1.7;
+  margin-left: 58px;
+  margin-right: 100px;
+  margin-top: 110px;
+}
+
+.info-1 {
+  margin-top: -35px;
+}
+
+.info-1 h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.info-1 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+}
+
+.info-2 {
+  margin-top: 20px;
+}
+
+.info-2 h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+.info-2 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+}
+
+.info-3 {
+  margin-top: 20px;
+}
+
+.info-3 h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+.info-3 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+}
+
+.container-4 {
+  display: contents;
+}
+
+.container-4 h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-top: 150px;
+  font-size: 35px;
+}
+
+.container-4 p {
+  color: hsl(201, 11%, 66%);
+  padding: 20px 337px;
+  text-align: center;
+}
+
+.devices {
+  margin: 50px 0 0 0;
+}
+
+.container-5 {
+  display: contents;
+}
+
+.container-5 h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.container-5 p {
+  color: hsl(201, 11%, 66%);
+  padding: 20px 337px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.options-1 h3 {
+  padding: 25px 0 10px 0;
+  color: hsl(210, 10%, 33%);
+}
+
+.options-1 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.options-2 h3 {
+  padding: 25px 0 10px 0;
+  color: hsl(210, 10%, 33%);
+}
+
+.options-2 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.options-3 h3 {
+  padding: 25px 0 10px 0;
+  color: hsl(210, 10%, 33%);
+}
+
+.options-3 p {
+  color: hsl(201, 11%, 66%);
+  font-size: 16px;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.organizations {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.google {
+  position: absolute;
+  left: -550px;
+}
+
+.ibm {
+  position: absolute;
+  left: -275px;
+}
+
+.microsoft {
+  position: absolute;
+  left: -20px;
+}
+
+.hp {
+  position: absolute;
+  left: 250px;
+}
+
+.vector {
+  position: absolute;
+  left: 450px;
+}
+
+.container-6 {
+  display: contents;
+}
+
+.container-6 h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.container-6 p {
+  color: hsl(201, 11%, 66%);
+  padding: 20px 337px;
+  text-align: center;
+}
+
+.download-2 {
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.button-3 {
+  border: 0 solid;
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  margin-right: 60px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.button-3:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.button-4 {
+  border: 0 solid;
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  font-size: 18px;
+  margin-left: -40px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.button-4:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.container-7 {
+  display: flex;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.Logo {
+  position: absolute;
+  right: 610px;
+}
+
+.details {
+  position: relative;
+}
+
+.details-1 {
+  position: relative;
+  display: flex;
+}
+
+.one {
+  position: absolute;
+  right: 420px;
+}
+
+.two {
+  position: inherit;
+  right: 63px;
+}
+
+.details-2 {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+}
+
+.four {
+  position: absolute;
+  right: 246px;
+}
+
+.five {
+  position: inherit;
+  right: 156px;
+}
+
+.apps {
+  display: flex;
+  position: absolute;
+  left: 500px;
+}
+
+.facebook {
+  margin: 10px;
+}
+
+.twitter {
+  margin: 10px;
+}
+
+.instagram {
+  margin: 10px;
+}
